@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PIZZALICIOUS</string>
+    <string name="contact">Pizzalicious</string>
+    <string name="phone">Phone:</string>
+    <string name="number">+40723372565</string>
+    <string name="address">Address:</string>
+    <string name="address2">Brasov Street 25, Bucharest</string>
+    <string name="mail">E-mail:</string>
+    <string name="mail1">nomnom@pizzalicious.com</string>
+    <string name="web">Web:</string>
+    <string name="web1">www.pizzalicious.com</string>
+    <string name="schedule">Schedule:</string>
+    <string name="program">10:00 AM - 2:00 AM</string>
+    <string name="mail_icon_description">Mail icon </string>
+    <string name="web_icon_description">Web icon </string>
+    <string name="phone_icon_description">Phone icon</string>
+    <string name="schedule_icon_description">Schedule icon</string>
+    <string name="address_icon_description">Address icon</string>
+    <string name="pizzalicious_description">Simple wallpaper</string>
+
+
+</resources>

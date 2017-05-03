@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.simplebusiness.MainActivity">
+
+    <TextView
+        style="@style/text_style"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/contact"
+        android:textAllCaps="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:contentDescription="@string/pizzalicious_description"
+        android:scaleType="fitStart"
+        android:src="@drawable/pizza_logo1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/LinearLayouts_Style" >
+
+            <ImageView
+                style="@style/image_style"
+                android:contentDescription="@string/phone_icon_description"
+                android:src="@drawable/ic_call_white_24dp" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/phone" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/number" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayouts_Style">
+
+            <ImageView
+                style="@style/image_style"
+                android:contentDescription="@string/address_icon_description"
+                android:src="@drawable/ic_place_white_24dp" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/address" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/address2" />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            style="@style/LinearLayouts_Style">
+
+            <ImageView
+                style="@style/image_style"
+                android:contentDescription="@string/mail"
+                android:src="@drawable/ic_mail_white_24dp" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/mail" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/mail1" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayouts_Style">
+
+            <ImageView
+                style="@style/image_style"
+                android:contentDescription="@string/web_icon_description"
+                android:src="@drawable/ic_public_white_24dp" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/web" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/web1" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayouts_Style">
+
+            <ImageView
+                style="@style/image_style"
+                android:contentDescription="@string/schedule_icon_description"
+                android:src="@drawable/ic_access_time_white_24dp" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/schedule" />
+
+            <TextView
+                style="@style/text_style"
+
+                android:text="@string/program" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
